@@ -27,6 +27,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # gem 'rack-cors'
 
 gem 'sample-core', github: 'sousousore1/sample-core'
+gem 'active_model_serializers'
 
 group :production do
   gem 'pg'
