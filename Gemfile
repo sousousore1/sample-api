@@ -28,6 +28,8 @@ gem 'rack-cors'
 
 gem 'sample-core', github: 'sousousore1/sample-core'
 gem 'active_model_serializers'
+gem 'google-cloud-translate'
+gem 'translator-text'
 
 group :production do
   gem 'pg'
